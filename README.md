@@ -41,4 +41,4 @@ cd noborder-fabric
 
 ## Лицензия
 
-MIT
+VizorVerze
