@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "noborder",
+  "version": "1.0.0",
+  "name": "No Border",
+  "description": "Removes the window title bar with the Minecraft logo and the minimize/maximize/close buttons.",
+  "authors": [
+    "vizor"
+  ],
+  "environment": "client",
+  "mixins": [
+    "noborder.mixins.json"
+  ]
+}
