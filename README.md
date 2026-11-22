@@ -2,10 +2,17 @@
 
 Убирает заголовок окна с логотипом Minecraft и кнопками свернуть/развернуть/закрыть. Игрок остаётся в полноэкранном окне без рамки.
 
+## Что нового в 1.1.0
+
+- Убран миксин в конструкторе `Window` — вместо него стабильный `ClientLifecycleEvents.CLIENT_STARTED`.
+- Добавлены `depends` в `fabric.mod.json` (Fabric Loader, Fabric API, Minecraft).
+- Добавлены Fabric API в зависимости сборки, CI и MIT-лицензия.
+- Версия поднята до 1.1.0.
+
 ## Установка
 
 1. Установи [Fabric Loader](https://fabricmc.net/) для Minecraft 1.16.5
-2. Положи `noborder-fabric-1.16.5-1.0.0.jar` в `mods/`
+2. Положи `noborder-fabric-1.16.5-1.1.0.jar` в `mods/`
 3. Запусти Minecraft
 
 ## Как работает
@@ -29,6 +36,7 @@
 - Minecraft 1.16.5
 - Fabric Loader 0.11+
 - Java 8+
+- Fabric API 0.42.0+1.16
 
 ## Сборка из исходников
 
@@ -41,4 +49,4 @@ cd noborder-fabric
 
 ## Лицензия
 
-VizorVerze
+MIT — см. [LICENSE](LICENSE).

@@ -3,12 +3,16 @@
   "id": "noborder",
   "version": "${version}",
   "name": "No Border",
-  "description": "Removes the window title bar with the Minecraft logo and the minimize/maximize/close buttons.",
-  "authors": [
-    "vizor"
-  ],
+  "description": "Убирает заголовок окна Minecraft и кнопки свернуть/развернуть/закрыть.",
+  "authors": ["vizor"],
+  "license": "MIT",
   "environment": "client",
-  "mixins": [
-    "noborder.mixins.json"
-  ]
+  "entrypoints": {
+    "client": ["com.vizor.noborder.NoBorderMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.0",
+    "fabric": "*",
+    "minecraft": "~1.16.5"
+  }
 }
